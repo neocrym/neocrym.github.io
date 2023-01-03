@@ -1,132 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta property="og:site_name" content="Neocrym">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Neocrym">
-    <meta property="og:description" content="Open source software projects at Neocrym.">
-    <meta property="og:url" content="https://www.neocrym.com/">
-    <meta property="og:image" content="https://www.neocrym.com/content/images/2021/05/neocrym-social-media-card-preview--1x-1.png">
-    <meta property="article:modified_time" content="2021-07-15T05:03:32.000Z">
-    <meta property="article:publisher" content="https://www.facebook.com/neocrym">
-    <meta property="article:author" content="https://www.facebook.com/james.r.mishra">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Neocrym">
-    <meta name="twitter:description" content="Open source software projects at Neocrym..">
-    <meta name="twitter:url" content="https://www.neocrym.com/">
-    <meta name="twitter:image" content="https://www.neocrym.com/content/images/2021/05/neocrym-social-media-card-preview--1x.png">
-    <meta name="twitter:site" content="@neocrym">
-    <meta name="twitter:creator" content="@neocrym">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="628">
-    <title>Open source at Neocrym</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,900" rel="stylesheet">
-    <style type="text/css">
-    @media screen {
-      body {
-        background-color: #131416;
-        color: #c5c5c5;
-        max-width: 73%;
-        margin: 5% auto;
-      }
-      h1, h2, h3, h4, h5, h6, strong, b, dt {
-        color: #EDEDEC;
-        font-weight: 700;
-      }
-      h1 {
-        font-size: 2.4em;
-      }
-      h1.multiline {
-        line-height:1.4em;
-      }
-      h2 {
-        font-size: 2.0em;
-      }
-      h3 {
-        font-size: 1.6em;
-      }
-      h4 {
-        font-size: 1.4em;
-      }
-      h5 {
-        font-size: 1.2em;
-      }
-      h6 {
-        font-size: 1em;
-      }
-      code {
-        color: #EDEDEC;
-      }
-      .highlight {
-        color: #F77239;
-        font-weight: 900;
-      }
-      a {
-        color: #5aa8ed;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #5EC7FF;
-        border-bottom: 0;
-      }
-      .panel-lightblack {
-        background-color: #1A1C1E;
-        color: #EDEDEC;
-      }
-      .panel-darkgray {
-        background-color: #303335;
-        color: #EDEDEC;
-      }
-      .panel-darkblue {
-        background-color: #204F8C;
-        color: #EDEDEC;
-      }
-      .panel-lightblue {
-        background-color: #5AA8ED;
-        color: #131416;
-      }
-      .panel-darkwhite {
-        background-color: #C5C5C5;
-        color: #131416;
-      }
-      .panel-softwhite {
-        background-color: #EDEDEC;
-        color: #131416;
-      }
-    }
-    body {
-      font-family: "Open Sans", sans-serif;
-      font-size: 1.25em;
-      line-height: 1.8;
-    }
-    .panel-lightblack, .panel-darkgray, .panel-darkblue, .panel-lightblue, .panel-darkwhite, .panel-softwhite {
-      padding: 1rem;
-    }
-    .header-img {
-      width: 25%;
-    }
-    dt {
-      /*
-      font-variant: small-caps;
-      text-transform: lowercase;
-      */
-    }
-    dt::after {
-      content: " —";
-    }
-    </style>
-  </head>
-  <body>
-    <h1 class="multiline">
-      Neocrym is a <span class="highlight">record <span class="thicc">label</span></span><br />
-      that uses <span class="highlight">artificial intelligence</span><br />
-      to find and <span class="highlight">promote</span><br />
-      the world's greatest <span class="highlight">musicians</span>
-    </h1>
-    
-  </body>
-</html>
+---
+title: Neocrym is a collection of projects
+layout: no_title
+---
+
+<h1>Neocrym is a <span class="highlight">collection</span><br />
+of open source <span class="highlight">software</span><br />
+and industry <span class="highlight">research.</span></h1>
+
+<div style="margin-top:4em"></div>
+
+<h2>About</h2>
+<p>Neocrym was originally founded by <strong><a href="https://jamesmishra.com">James Mishra</a></strong> as an indie software company applying artificial intelligence to the music industry.</p>
+
+<p>We built a lot of tools to help us train a massive number of machine learning models on audio data.</p> 
+
+<p>Now we are giving away out tools for free.</p>
+
+<p>Here is a list of our major open-source software projects and our research.</p>
+
+<div style="margin-top:4em"></div>
+
+<h2>Software</h2>
+
+<h3><img src="https://static.neocrym.com/images/babycat/v1/1x/babycat-face-icon-on-transparent--1x.png" style="height: 3.2em" alt="Babycat logo" /> Babycat</h3>
+<p>Babycat is a library that makes it easy to decode and resample large batches of audio files in parallel.</p>
+<p>It is written in Rust and has bindings for C, Python, and WebAssembly.</p>
+<ul>
+    <li><strong>Source Code</strong>: <a href="https://github.com/babycat-io/babycat">github.com/babycat-io/babycat</a></li>
+    <li><strong>Documentation</strong>:
+        <ul>
+            <li><strong>Rust</strong>: <a href="https://docs.rs/crate/babycat/latest">docs.rs/babycat</a></li>
+            <li><strong>C</strong>: <a href="https://babycat.io/api/c/">babycat.io/api/c</a></li>
+            <li><strong>Python</strong>: <a href="https://babycat.io/api/python/">babycat.io/api/python</a></li>
+            <li><strong>WebAssembly</strong>: <a href="https://babycat.io/api/wasm/">babycat.io/api/wasm</a></li>
+        </ul>
+    </li>
+    <!--
+    <li><strong>Releases</strong>:
+        <ul>
+            <li><strong>Rust</strong>: <a href="https://crates.io/crates/babycat">crates.io/crates/babycat</a></li>
+            <li><strong>C</strong>: (No binary releases yet)</li>
+            <li><strong>Python</strong>: <a href="https://pypi.org/project/babycat/">pypi.org/project/babycat</a></li>
+            <li><strong>WebAssembly</strong>: <a href="https://www.npmjs.com/package/babycat">npmjs.com/babycat</a></li>
+        </ul>
+    </li>
+-->
+</ul>
+
+<h3><img src="https://static.neocrym.com/images/provose/v1/1x/provose-icon-white-on-transparent--1x.png" style="height: 2.5em" alt="Provose logo" /> Provose</h3>
+
+<p>Provose is the easiest way to deploy to Amazon Web Services.</p>
+<p>It makes it easy to deploy hundreds of individual AWS resources--containers, databases, TLS certificates, DNS rules, etc.--with just a few lines of code.</p>
+<p>When you use Provose to deploy two resources that need to talk to each other--like a container and a database--Provose automatically configures the relevant security groups and IAM policies to ensure that those resources can securely communicate.</p>
+<ul>
+    <li><strong>Source Code</strong>: <a href="https://github.com/provose/provose">github.com/provose/provose</a></li>
+    <li><strong>Documentation</strong>: <a href="https://provose.com">provose.com</a></li>
+</ul>
+<h3><img src="https://static.neocrym.com/images/scalarstop/v1/1x/scalarstop-icon-white-on-transparent--1x.png" style="height: 2.5em" alt="ScalarStop logo" />
+ScalarStop</h3>
+
+<p>ScalarStop is an experiment tracker for reproducible machine learning research.</p>
+<p>It makes it easy to log machine learning training metrics to a local SQLite or PostgreSQL database, making it easy to track the results of a distributed hyperparameter search.</p>
+<p>ScalarStop also makes it possible to hash and cache trained machine learning models--saving compute resources by ensuring that the same model is not accidentally trained twice.</p>
+<ul>
+    <li><strong>Source Code</strong>: <a href="https://github.com/scalarstop/scalarstop">github.com/scalarstop/scalarstop</a></li>
+    <li><strong>Documentation</strong>: <a href="https://www.scalarstop.com/en/latest/">scalarstop.com</a></li>
+    <!-- <li><strong>Releases</strong>: <a href="https://pypi.org/project/scalarstop/">pypi.org/project/scalarstop</a></li> -->
+</ul>
+
+<div style="margin-top:4em"></div>
+
+
+<h2>Research</h2>
+<h3><img src="https://static.neocrym.com/images/clicktrack/v1/1x/click-track-logo.png" style="height: 1.7em" alt="Click Track logo" /> Click Track</h3>
+<p>
+    <a href="https://www.clicktrack.fm">Click Track</a> is a newsletter about technology and the entertainment business.
+</p>
+
+<div style="margin-top:4em"></div>
+
+
+<h2>Contributing to Neocrym</h2>
+<p>Neocrym is the beginnings of an open source community. Everybody is welcome as long as they agree with our <a href="/coc/">Code of Conduct (CoC)</a> and our <a href="/cla/">Contributor Licensing Agreement (CLA)</a>.</p>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head_content.html %}
+  </head>
+  <body>
+    <div class="page-header py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            {% include body_header.html %}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="page-title text-center">
+              <h1>{{ page.title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include content_section.html %}
+    {% include footer.html %}
+  </body>
+</html>
